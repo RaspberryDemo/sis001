@@ -1,0 +1,4 @@
+PySocks
+jinja2
+beautifulsoup
+requests
