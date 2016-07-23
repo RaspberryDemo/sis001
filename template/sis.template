@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>sis001</title>
+</head>
+<body>
+{%- for w in wanted %}
+<a href="{{ w.link }}">{{ w.text }}</a>
+<br/><br/>
+{%- endfor %}
+</body>
+</html>
