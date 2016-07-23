@@ -33,7 +33,7 @@ for i in range(1, 30):
         for word in keywords:
             if word in link.string:
                 print link.string
-                wanted.append({'link': link.get('href'), 'text': link.string})
+                wanted.append({'link': 'http://sis001.us/forum/'+link.get('href'), 'text': link.string})
 
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 env = Environment(loader=FileSystemLoader(THIS_DIR))
